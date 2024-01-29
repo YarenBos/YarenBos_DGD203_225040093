@@ -133,7 +133,7 @@ public class Map
 		Location firstCombat = new Location("First Combat", LocationType.Combat, firstCombatLocation);
 		_locations[7] = firstCombat;
 
-        Vector2 secondCombatLocation = new Vector2(-1, -1);
+        Vector2 secondCombatLocation = new Vector2(0, -2);
         Location secondCombat = new Location("Second Combat", LocationType.Combat, secondCombatLocation);
         _locations[8] = secondCombat;
 
