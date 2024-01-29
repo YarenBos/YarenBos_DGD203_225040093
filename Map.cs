@@ -114,7 +114,7 @@ public class Map
 		Vector2 altusLocation = new Vector2(-1, -1);
         List<Item> altusItems = new List<Item>();
         altusItems.Add(Item.Rune);
-        Location altus = new Location("Altus", LocationType.City, altusLocation, altusItems);
+        Location altus = new Location("Altus", LocationType.Cave, altusLocation, altusItems);
         _locations[4] = altus;
 
         Vector2 ainselLocation = new Vector2(2, 3);
