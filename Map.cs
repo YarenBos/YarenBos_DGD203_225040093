@@ -89,27 +89,27 @@ public class Map
 	{
         _locations = new Location[6];
 
-        Vector2 gristolLocation = new Vector2(0, 0);
-		List<Item> gristolItems = new List<Item>();
-		gristolItems.Add(Item.Coin);
-        Location gristol = new Location("Gristol", LocationType.City, gristolLocation, gristolItems);
-        _locations[0] = gristol;
+        Vector2 liurniaLocation = new Vector2(0, 0);
+		List<Item> liurniaItems = new List<Item>();
+		liurniaItems.Add(Item.Coin);
+        Location liurnia = new Location("Liurnia", LocationType.City, liurniaLocation, liurniaItems);
+        _locations[0] = liurnia;
 
-        Vector2 tyviaLocation = new Vector2(-2, 2);
-		List<Item> tyviaItems = new List<Item>();
-		tyviaItems.Add(Item.Charm);
-        Location tyvia = new Location("Tyvia", LocationType.City, tyviaLocation, tyviaItems);
-        _locations[1] = tyvia;
+        Vector2 siofraLocation = new Vector2(-2, 2);
+		List<Item> siofraItems = new List<Item>();
+		siofraItems.Add(Item.Charm);
+        Location siofra = new Location("Siofra", LocationType.City, siofraLocation, siofraItems);
+        _locations[1] = siofra;
 
-        Vector2 serkonosLocation = new Vector2(1, -2);
-		List<Item> serkonosItems = new List<Item>();
-		serkonosItems.Add(Item.Rune);
-        Location serkonos = new Location("Serkonos", LocationType.City, serkonosLocation, serkonosItems);
-        _locations[2] = serkonos;
+        Vector2 caelidLocation = new Vector2(1, -2);
+		List<Item> caelidItems = new List<Item>();
+		caelidItems.Add(Item.Rune);
+        Location caelid = new Location("Caelid", LocationType.City, caelidLocation, caelidItems);
+        _locations[2] = caelid;
 
-        Vector2 morleyLocation = new Vector2(1, 1);
-        Location morley = new Location("Morley", LocationType.City, morleyLocation);
-        _locations[3] = morley;
+        Vector2 leyndellLocation = new Vector2(1, 1);
+        Location leyndell = new Location("Leyndell", LocationType.City, leyndellLocation);
+        _locations[3] = leyndell;
 
 		Vector2 firstCombatLocation = new Vector2(-2, 1);
 		Location firstCombat = new Location("First Combat", LocationType.Combat, firstCombatLocation);
