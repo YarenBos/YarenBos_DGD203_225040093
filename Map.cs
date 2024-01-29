@@ -87,7 +87,7 @@ public class Map
 
 	private void GenerateLocations()
 	{
-        _locations = new Location[10];
+        _locations = new Location[11];
 
         Vector2 marikaLocation = new Vector2(0, 0);
 		List<Item> marikaItems = new List<Item>();
@@ -140,6 +140,10 @@ public class Map
 		Vector2 thirdCombatLocation = new Vector2(-1, 3);
 		Location thirdCombat = new Location("Third Combat", LocationType.Combat, thirdCombatLocation);
 		_locations[9] = thirdCombat;
+
+        Vector2 fourthCombatLocation = new Vector2(3, 1);
+        Location fourthCombat = new Location("Fourth Combat", LocationType.Combat, fourthCombatLocation);
+        _locations[10] = fourthCombat;
 
     }
 
