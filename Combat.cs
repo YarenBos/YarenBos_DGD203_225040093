@@ -168,7 +168,7 @@ public class Combat
 	{
 		if (Enemies.Count == 0)
 		{
-			Console.WriteLine("You defeated all your enemies!");
+			Console.WriteLine("You slained your enemies!");
 			EndCombat();
 		}
 
