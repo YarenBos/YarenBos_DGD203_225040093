@@ -13,7 +13,7 @@ public class Golem : Enemy
 	{
 		get
 		{
-			return goblinMaxDamage;
+			return golemMaxDamage;
 			//Random newRandom = new Random();
 			//return newRandom.Next(golemMinDamage, golemMaxDamage + 1);
 		} protected set
