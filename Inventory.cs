@@ -32,7 +32,7 @@ public class Inventory
 
 public enum Item
 {
-	Charm,
+	Talisman,
 	Rune,
 	Coin
 }

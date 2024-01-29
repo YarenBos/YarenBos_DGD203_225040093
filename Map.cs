@@ -97,7 +97,7 @@ public class Map
 
         Vector2 siofraLocation = new Vector2(-2, 2);
 		List<Item> siofraItems = new List<Item>();
-		siofraItems.Add(Item.Charm);
+		siofraItems.Add(Item.Talisman);
         Location siofra = new Location("Siofra", LocationType.City, siofraLocation, siofraItems);
         _locations[1] = siofra;
 
@@ -119,7 +119,7 @@ public class Map
 
         Vector2 ainselLocation = new Vector2(2, 3);
         List<Item> ainselItems = new List<Item>();
-        ainselItems.Add(Item.Charm);
+        ainselItems.Add(Item.Talisman);
         Location ainsel = new Location("Ainsel", LocationType.City, ainselLocation, ainselItems);
         _locations[5] = ainsel;
 
