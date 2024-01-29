@@ -4,8 +4,8 @@ public class Player
 {
 	private const int playerMaxHealth = 100;
 
-	private const int playerDefaultMinDamage = 5;
-	private const int playerDefaultMaxDamage = 15;
+	private const int playerDefaultMinDamage = 6;
+	private const int playerDefaultMaxDamage = 16;
 
 	public string Name { get; private set; }
 	public int Health { get; private set; }
