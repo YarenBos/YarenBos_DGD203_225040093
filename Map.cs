@@ -91,7 +91,7 @@ public class Map
 
         Vector2 marikaLocation = new Vector2(0, 0);
 		List<Item> marikaItems = new List<Item>();
-		marikaItems.Add(Item.Coin);
+		marikaItems.Add(Item.Crystal);
         Location marika = new Location("Marika", LocationType.City, marikaLocation, marikaItems);
         _locations[0] = marika;
 
@@ -124,7 +124,9 @@ public class Map
         _locations[5] = ainsel;
 
         Vector2 liurniaLocation = new Vector2(-3, -3);
-        Location liurnia = new Location("Liurnia", LocationType.City, liurniaLocation );
+        List<Item> liurniaItems = new List<Item>();
+		liurniaItems.Add(Item.Remembrance);
+        Location liurnia = new Location("Liurnia", LocationType.City, liurniaLocation, liurniaItems);
         _locations[6] = liurnia;
 
         Vector2 firstCombatLocation = new Vector2(-2, 1);

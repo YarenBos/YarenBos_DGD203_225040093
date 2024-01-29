@@ -34,5 +34,6 @@ public enum Item
 {
 	Talisman,
 	Rune,
-	Coin
+	Crystal,
+	Remembrance
 }
