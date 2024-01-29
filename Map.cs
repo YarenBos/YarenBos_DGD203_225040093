@@ -87,7 +87,7 @@ public class Map
 
 	private void GenerateLocations()
 	{
-        _locations = new Location[6];
+        _locations = new Location[7];
 
         Vector2 liurniaLocation = new Vector2(0, 0);
 		List<Item> liurniaItems = new List<Item>();
@@ -109,15 +109,21 @@ public class Map
 
         Vector2 leyndellLocation = new Vector2(1, 1);
         Location leyndell = new Location("Leyndell", LocationType.City, leyndellLocation);
-        _locations[3] = leyndell;
+		_locations[3] = leyndell;
 
-		Vector2 firstCombatLocation = new Vector2(-2, 1);
+		Vector2 altusLocation = new Vector2(-1, -1);
+        List<Item> altusItems = new List<Item>();
+        altusItems.Add(Item.Rune);
+        Location altus = new Location("Altus", LocationType.City, altusLocation, altusItems);
+        _locations[4] = altus;
+
+        Vector2 firstCombatLocation = new Vector2(-2, 1);
 		Location firstCombat = new Location("First Combat", LocationType.Combat, firstCombatLocation);
-		_locations[4] = firstCombat;
+		_locations[5] = firstCombat;
 
         Vector2 secondCombatLocation = new Vector2(-1, -1);
         Location secondCombat = new Location("Second Combat", LocationType.Combat, secondCombatLocation);
-        _locations[5] = secondCombat;
+        _locations[6] = secondCombat;
 
     }
 
