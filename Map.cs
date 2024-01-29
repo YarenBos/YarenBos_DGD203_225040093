@@ -113,13 +113,13 @@ public class Map
 
 		Vector2 altusLocation = new Vector2(-1, -1);
         List<Item> altusItems = new List<Item>();
-        altusItems.Add(Item.Rune);
+        altusItems.Add(Item.Tear);
         Location altus = new Location("Altus", LocationType.Cave, altusLocation, altusItems);
         _locations[4] = altus;
 
         Vector2 ainselLocation = new Vector2(2, 3);
         List<Item> ainselItems = new List<Item>();
-        ainselItems.Add(Item.Talisman);
+        ainselItems.Add(Item.Tool);
         Location ainsel = new Location("Ainsel", LocationType.City, ainselLocation, ainselItems);
         _locations[5] = ainsel;
 

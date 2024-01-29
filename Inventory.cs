@@ -35,5 +35,7 @@ public enum Item
 	Talisman,
 	Rune,
 	Crystal,
-	Remembrance
+	Remembrance,
+	Tear,
+	Tool
 }
