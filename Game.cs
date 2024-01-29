@@ -9,8 +9,8 @@ namespace DGD203_2
 
         #region Game Constants
 
-        private const int _defaultMapWidth = 5;
-        private const int _defaultMapHeight = 5;
+        private const int _defaultMapWidth = 7;
+        private const int _defaultMapHeight = 7;
 
         #endregion
 

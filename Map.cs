@@ -87,13 +87,13 @@ public class Map
 
 	private void GenerateLocations()
 	{
-        _locations = new Location[7];
+        _locations = new Location[8];
 
-        Vector2 liurniaLocation = new Vector2(0, 0);
-		List<Item> liurniaItems = new List<Item>();
-		liurniaItems.Add(Item.Coin);
-        Location liurnia = new Location("Liurnia", LocationType.City, liurniaLocation, liurniaItems);
-        _locations[0] = liurnia;
+        Vector2 marikaLocation = new Vector2(0, 0);
+		List<Item> marikaItems = new List<Item>();
+		marikaItems.Add(Item.Coin);
+        Location marika = new Location("Marika", LocationType.City, marikaLocation, marikaItems);
+        _locations[0] = marika;
 
         Vector2 siofraLocation = new Vector2(-2, 2);
 		List<Item> siofraItems = new List<Item>();
@@ -117,13 +117,19 @@ public class Map
         Location altus = new Location("Altus", LocationType.City, altusLocation, altusItems);
         _locations[4] = altus;
 
+        Vector2 ainselLocation = new Vector2(2, 3);
+        List<Item> ainselItems = new List<Item>();
+        ainselItems.Add(Item.Charm);
+        Location ainsel = new Location("Ainsel", LocationType.City, ainselLocation, ainselItems);
+        _locations[5] = ainsel;
+
         Vector2 firstCombatLocation = new Vector2(-2, 1);
 		Location firstCombat = new Location("First Combat", LocationType.Combat, firstCombatLocation);
-		_locations[5] = firstCombat;
+		_locations[6] = firstCombat;
 
         Vector2 secondCombatLocation = new Vector2(-1, -1);
         Location secondCombat = new Location("Second Combat", LocationType.Combat, secondCombatLocation);
-        _locations[6] = secondCombat;
+        _locations[7] = secondCombat;
 
     }
 
