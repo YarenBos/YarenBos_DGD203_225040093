@@ -1,12 +1,12 @@
 ﻿using System;
 
-public class Goblin : Enemy
+public class Golem : Enemy
 {
 
-	private const int goblinHealth = 20;
+	private const int golemHealth = 20;
 
-	private const int goblinMinDamage = 3;
-	private const int goblinMaxDamage = 10;
+	private const int golemMinDamage = 3;
+	private const int golemMaxDamage = 10;
 
 	/*
 	public int Damage
@@ -23,10 +23,10 @@ public class Goblin : Enemy
 	}
 	*/
 
-	public Goblin()
+	public Golem()
 	{
-		Health = goblinHealth;
-		Damage = goblinMaxDamage;
+		Health = golemHealth;
+		Damage = golemMaxDamage;
 	}
 
 
