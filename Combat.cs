@@ -72,7 +72,7 @@ public class Combat
 
 	private void GetInput()
 	{
-		Console.WriteLine($"There are {Enemies.Count} golem(s) against you. What do you want to do?");
+		Console.WriteLine($"There are {Enemies.Count} golem(s) against you. Make your decision!");
 		for (int i = 0; i < Enemies.Count; i++)
 		{
 			Console.WriteLine($"[{i + 1}]: Attack golem {i + 1}");
